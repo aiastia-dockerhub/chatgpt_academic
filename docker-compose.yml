@@ -1,7 +1,7 @@
 version: "3.7"
 services:
   gpt-academic:
-    image: gpt-academic
+    image: aiastia/chatgptacademic:master
     network_mode: host
     stdin_open: true
     tty: true
