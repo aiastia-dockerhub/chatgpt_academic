@@ -1,0 +1,9 @@
+version: "3.7"
+services:
+  gpt-academic:
+    image: gpt-academic
+    network_mode: host
+    stdin_open: true
+    tty: true
+    volumes:
+      - "./config.py:/gpt/config.py"
